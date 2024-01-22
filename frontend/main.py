@@ -6,4 +6,5 @@ def main(page: ft.Page):
     pass
 
 
-ft.app(main)
+ft.app(target=main, view=ft.AppView.WEB_BROWSER)
+
